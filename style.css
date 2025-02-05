@@ -1,0 +1,37 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    position: relative;
+    display: grid;
+    /* height: 90vh; */
+    place-items: center;
+    /* border: 1px solid red; */
+}
+#text{
+    width: 500px;
+    min-height: 230px;
+    resize: none;
+    font-size: 18px;
+}
+#copyText{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    /* border-radius: 10px; */
+    /* outline: none; */
+    /* border: none; */
+    cursor: pointer;
+}
+#copyText:hover{
+    background-color: antiquewhite;
+}
+
+.empty{
+    width: 500px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
